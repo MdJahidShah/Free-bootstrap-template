@@ -1,0 +1,469 @@
+<!--
+Free Bootstrap Template (Single-file, Enhanced Professional Version)
+Author: Jahid Shah
+License: MIT
+
+Instructions:
+1. Save this file as index.html
+2. Replace placeholder text, colors, brand name, and images as needed.
+3. Upload to GitHub (create a repo, add this file, enable GitHub Pages for a live demo).
+4. All images use Unsplash source URLs (free to use under Unsplash license). Replace with your own if desired.
+
+Sections included:
+1) Navigation
+2) Hero / CTA
+3) Core Features
+4) Services / Solutions
+5) Portfolio / Case Studies
+6) Testimonials
+7) Pricing
+8) Team
+9) Blog / Resources (sample)
+10) FAQ
+11) Contact / CTA
+12) Footer
+
+This version improves accessibility, structure, and visual hierarchy. It includes utility classes, SEO-friendly headings, aria attributes, and a more professional look suitable for agencies and portfolios.
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Professional Bootstrap Template — JahidTemplates</title>
+      <meta name="description" content="Free professional Bootstrap template with sections for features, services, portfolio, testimonials, pricing, team, FAQ, and contact. Clean, responsive, and ready to customize.">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">JahidTemplates</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Documentation.html">Documentation</a></li>
+            <li class="nav-item ms-3 d-none d-lg-block"><a class="btn btn-outline-primary" href="#download">Download</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="card-hero">
+              <h1 class="display-5 fw-bold">Professional Bootstrap Template — Fast, Modern, & Ready</h1>
+              <p class="lead text-muted">A versatile, free Bootstrap 5 template built for agencies, startups, and freelancers. SEO-friendly, responsive, and easy to customize.</p>
+              <div class="d-flex gap-2 mt-3">
+                <a class="btn btn-primary btn-lg" href="#download">Download Free ZIP</a>
+                <a class="btn btn-outline-secondary btn-lg" href="#portfolio">Live Demo</a>
+              </div>
+              <ul class="list-inline mt-3 small text-muted">
+                <li class="list-inline-item me-3">✅ Bootstrap 5</li>
+                <li class="list-inline-item me-3">✅ MIT License</li>
+                <li class="list-inline-item">✅ Clean HTML & CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="ratio ratio-16x9 rounded shadow-sm overflow-hidden">
+              <img src="https://jahidshah.com/wp-content/uploads/2024/09/Md_Jahid_Shah-e1749914063189.webp" alt="preview" class="w-100 h-100 img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="py-5 bg-light" id="features">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="fw-bold">Why Use This Template?</h2>
+            <p class="text-muted">Designed to save development time while keeping performance and accessibility in mind.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="p-4 h-100 border rounded">
+              <div class="feature-icon mb-3">⚡</div>
+              <h5>Performance Optimized</h5>
+              <p class="text-muted small">Minimal dependencies, image lazy-loading, and lightweight markup ensure fast load times and better Core Web Vitals.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 h-100 border rounded">
+              <div class="feature-icon mb-3">🎨</div>
+              <h5>Modern UI</h5>
+              <p class="text-muted small">Professional spacing, readable typography, and a layout that adapts for portfolios, agencies, and product pages.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 h-100 border rounded">
+              <div class="feature-icon mb-3">🔧</div>
+              <h5>Easy to Customize</h5>
+              <p class="text-muted small">Clear section markers, well-commented HTML, and utility classes make customization fast and safe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="py-5 bg-white" id="services">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Use Cases & Services</h3>
+            <p class="text-muted">A solid base for multiple website types — examples below show how this template can be extended.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="service-icon mt-1">🏢</div>
+              <div>
+                <h5 class="mb-1">Agency Landing Pages</h5>
+                <p class="text-muted small mb-0">Highlight services, case studies, and lead capture forms with a professional layout.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="service-icon mt-1">🧑‍💻</div>
+              <div>
+                <h5 class="mb-1">Portfolio Sites</h5>
+                <p class="text-muted small mb-0">Showcase projects with a clean gallery and project detail templates.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="service-icon mt-1">📦</div>
+              <div>
+                <h5 class="mb-1">Product Landing Pages</h5>
+                <p class="text-muted small mb-0">Built-in CTA areas, pricing blocks, and trust sections to support conversions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO / CASE STUDIES -->
+    <section class="py-5 bg-light" id="portfolio">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Portfolio / Case Studies</h3>
+            <p class="text-muted">Three demo cards to illustrate how your work appears in this layout.</p>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <article class="portfolio-item shadow-sm">
+              <img src="https://source.unsplash.com/800x600/?web,design" class="w-100 d-block" alt="Project 1">
+              <div class="p-3 bg-white">
+                <h5 class="mb-1">Project Title One</h5>
+                <p class="small text-muted mb-0">Short summary of the challenge and outcome.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="portfolio-item shadow-sm">
+              <img src="https://source.unsplash.com/800x600/?app,interface" class="w-100 d-block" alt="Project 2">
+              <div class="p-3 bg-white">
+                <h5 class="mb-1">Project Title Two</h5>
+                <p class="small text-muted mb-0">Short summary of the challenge and outcome.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="portfolio-item shadow-sm">
+              <img src="https://source.unsplash.com/800x600/?dashboard,ui" class="w-100 d-block" alt="Project 3">
+              <div class="p-3 bg-white">
+                <h5 class="mb-1">Project Title Three</h5>
+                <p class="small text-muted mb-0">Short summary of the challenge and outcome.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-5 bg-white" id="testimonials">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">What Clients Say</h3>
+            <p class="text-muted">Short testimonials to build trust and credibility.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p class="mb-2">“We launched our site in days, not weeks. The template is clean and easy to adapt.”</p>
+              <div class="d-flex align-items-center">
+                <img src="https://source.unsplash.com/100x100/?person,portrait" class="rounded-circle me-3" alt="client">
+                <div>
+                  <strong class="d-block">S. Khan</strong>
+                  <small class="text-muted">Founder, Acme Co.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p class="mb-2">“Great starting point for client projects — lightweight and well-structured.”</p>
+              <div class="d-flex align-items-center">
+                <img src="https://source.unsplash.com/100x100/?person,face" class="rounded-circle me-3" alt="client">
+                <div>
+                  <strong class="d-block">R. Lopez</strong>
+                  <small class="text-muted">Product Lead</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p class="mb-2">“Perfect balance of design and performance — we saw immediate improvement in speed.”</p>
+              <div class="d-flex align-items-center">
+                <img src="https://source.unsplash.com/100x100/?person,portrait,smile" class="rounded-circle me-3" alt="client">
+                <div>
+                  <strong class="d-block">L. Morgan</strong>
+                  <small class="text-muted">Marketing Manager</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="py-5 bg-light" id="pricing">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Pricing Options</h3>
+            <p class="text-muted">The template is free under MIT, but here are suggested enhancement packages for clients.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Starter</h5>
+                <p class="display-6 fw-bold mb-2">Free</p>
+                <p class="text-muted small">Basic template, personal use</p>
+                <ul class="list-unstyled mt-3 mb-4 small">
+                  <li>Responsive layout</li>
+                  <li>Free updates</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="#download">Get Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center shadow-sm border-primary">
+              <div class="card-body">
+                <h5 class="card-title">Pro</h5>
+                <p class="display-6 fw-bold mb-2">$79</p>
+                <p class="text-muted small">Includes customization and priority support</p>
+                <ul class="list-unstyled mt-3 mb-4 small">
+                  <li>Brand colors & fonts</li>
+                  <li>Responsive tweaks</li>
+                  <li>One month support</li>
+                </ul>
+                <a class="btn btn-primary" href="#contact">Buy Pro</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Agency</h5>
+                <p class="display-6 fw-bold mb-2">$249</p>
+                <p class="text-muted small">White-label & multi-site license</p>
+                <ul class="list-unstyled mt-3 mb-4 small">
+                  <li>Full branding</li>
+                  <li>Multi-site support</li>
+                  <li>Priority SLA</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="#contact">Contact Sales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="py-5" id="team">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Meet the Creators</h3>
+            <p class="text-muted">Small team focused on performance, design, and developer experience.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3 text-center team">
+            <img src="https://source.unsplash.com/240x240/?developer" alt="team" class="img-fluid mb-3">
+            <h6 class="mb-0">Jahid Shah</h6>
+            <small class="text-muted">Lead Developer</small>
+          </div>
+          <div class="col-md-3 text-center team">
+            <img src="https://source.unsplash.com/240x240/?designer" alt="team" class="img-fluid mb-3">
+            <h6 class="mb-0">A. Designer</h6>
+            <small class="text-muted">UI/UX</small>
+          </div>
+          <div class="col-md-3 text-center team">
+            <img src="https://source.unsplash.com/240x240/?manager" alt="team" class="img-fluid mb-3">
+            <h6 class="mb-0">M. Patel</h6>
+            <small class="text-muted">Product</small>
+          </div>
+          <div class="col-md-3 text-center team">
+            <img src="https://source.unsplash.com/240x240/?support" alt="team" class="img-fluid mb-3">
+            <h6 class="mb-0">L. Brown</h6>
+            <small class="text-muted">Support</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG / RESOURCES -->
+    <section class="py-5 bg-light" id="resources">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Resources & Blog</h3>
+            <p class="text-muted">Sample posts to show how a content section integrates with the template.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://source.unsplash.com/600x400/?seo,content" class="card-img-top" alt="post">
+              <div class="card-body">
+                <small class="text-muted">SEO • 5 min read</small>
+                <h5 class="card-title mt-2">How to Speed Up WordPress in 2025</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://source.unsplash.com/600x400/?design,blog" class="card-img-top" alt="post">
+              <div class="card-body">
+                <small class="text-muted">Design • 4 min read</small>
+                <h5 class="card-title mt-2">Choosing a Lightweight Theme</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://source.unsplash.com/600x400/?tutorial,code" class="card-img-top" alt="post">
+              <div class="card-body">
+                <small class="text-muted">Tutorial • 6 min read</small>
+                <h5 class="card-title mt-2">Integrating Bootstrap with WordPress</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-5" id="faq">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="fw-bold">Frequently Asked Questions</h3>
+            <p class="text-muted">Quick answers to common questions about using the template.</p>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <h5>Is this template free to use?</h5>
+            <p class="text-muted small">Yes — it is released under the MIT license. You can use it for personal and commercial projects.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Can I customize styles and images?</h5>
+            <p class="text-muted small">Absolutely. All HTML and CSS are included. Replace images and colors to match your brand.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Does it support WordPress?</h5>
+            <p class="text-muted small">This is a static Bootstrap template. You can convert it into a WordPress theme or use it as a starter for theme development.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>How do I get support?</h5>
+            <p class="text-muted small">Contact the author via the contact form or check the GitHub repo for issues and documentation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / DOWNLOAD -->
+    <section class="py-5 bg-light" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card shadow-sm">
+              <div class="card-body p-4">
+                <h4 class="fw-bold">Download the Template</h4>
+                <p class="text-muted">Enter your name to receive the download link. The ZIP will include the HTML file, images, and a README for GitHub setup.</p>
+                <form id="downloadForm" onsubmit="handleDownload(event)">
+                  <div class="row g-2">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" id="email" placeholder="Email (optional)">
+                    </div>
+                    <div class="col-12 mt-3 d-flex gap-2">
+                      <button class="btn btn-primary" type="submit">Download ZIP</button>
+                      <a href="#" id="directLink" class="btn btn-outline-secondary" download style="display:none">Direct Download</a>
+                    </div>
+                  </div>
+                </form>
+                <small class="text-muted d-block mt-3">By downloading, you agree to the MIT license included in the package.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">© 2025 JahidTemplates • MIT License • Built with Bootstrap 5</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <small class="text-muted">Follow: <a href="#" class="text-white">Twitter</a> • <a href="#" class="text-white">GitHub</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
