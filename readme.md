@@ -32,4 +32,7 @@ It includes multiple pre-designed sections, easy-to-edit code, and a professiona
 
 
 ## 🚀 Live Demo
+👉 [Live Preview](https://mdjahidshah.github.io/Free-bootstrap-template/)
+
+## Support
 👉 Want to Support then, [Buy Me a Coffee](https://buymeacoffee.com/jahidshah)
